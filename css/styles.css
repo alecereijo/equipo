@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/img/fondo.jpg) ;
+    height: 800px;
+    font-size: 30px;
+    
+}
+
+.cabecera{
+    text-align: center;
+    color: #18ab29;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+.tarjeta{
+    text-align: center;
+    margin: auto;
+    background-color:#E41733;
+    height: 550px;
+    border-radius: 20px;
+    animation: cardAnim 2s 3s backwards;
+}
+
+.tarjeta2{
+    text-align: center;
+    margin: auto;
+    background-color: #E41733;
+    height: 550px;
+    border-radius: 20px;
+    animation: cardAnim 2s 3.5s backwards;
+}
+
+.tarjeta3{
+    text-align: center;
+    margin: auto;
+    background-color: #E41733;
+    height: 550px;
+    border-radius: 20px;
+    animation: cardAnim 2s 4s backwards;
+}
+
+.tarjeta:hover{
+    transform: scale(1.1);
+}
+
+.tarjeta2:hover{
+    transform: scale(1.1);
+}
+
+.tarjeta3:hover{
+    transform: scale(1.1);
+}
+
+.altura{
+    height: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.peque{
+    border-radius: 50%;
+    height: 140px;
+    width: 150px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 5px solid white;
+}
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-top: 120px;
+   
+}
+
+
+.container{
+    margin-left: 35px;
+    margin-right: 35px;
+    columns: 3;
+    
+}
+    
+
+.altura2{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.altura1{
+    color: white;
+    text-align: center;
+    margin-top: 170px;
+    font-size: 20px;
+  
+}
+
+
